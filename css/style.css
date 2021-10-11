@@ -1,0 +1,21 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.height-small{
+  height:40px;
+}
+
+.height{
+  height:50px;
+}
+
+.height-middle{
+  height:200px;
+}
+
+.height-big{
+  height:100vh;
+  border:1px solid black
+}
