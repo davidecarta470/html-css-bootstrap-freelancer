@@ -80,10 +80,22 @@ button i{
 .dc-justify{
  text-align:justify;
 }
-.dc-form{
-    /* height placeholder*/
-  height: 300px;
-}
+/* form */
+form{
+    padding-top: 30px;
+ }
+ 
+ .dt-custom-border{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    border-radius: 0;
+ }
+ 
+ .dt-bg-green{
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+ }
+/* ************** */
 
 .dc-footer-top{
   color: white;
