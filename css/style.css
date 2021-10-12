@@ -18,8 +18,9 @@
 header{
   height: 80px;
   color: white;
-  justify-content:space-around;
+  justify-content:space-between;
   align-items: center;
+  padding: 0 20px;
 }
 .dc-logo{
   font-size: 25px;
@@ -40,10 +41,9 @@ header{
 img{
   width:300px;
 }
-
 .dc-row{
   border: 1px solid white;
-  width: 15%;
+  width: 10vw;
   align-self: center;
   border-radius:10px;
 }
@@ -51,17 +51,35 @@ i{
   font-size: 20px;
   margin: 0 10px;
 }
-.dc-box{
-  background-color: chocolate;
-  /* height margin da toglire*/
-  margin: 10px;
-  height: 300px;
+/* PORTFOLIO */
+.dc-row-black{
+  border:1px solid black;
 }
-
+.dc-box{
+  padding-top: 20px;
+  }
+.dc-box img{
+  width: 100%;
+}
+/* ABOUT */
 .about{
   color:white;
 }
-
+.dc-btn{
+  border: 1px solid white;
+}
+.dc-btn:hover{
+  background-color:white;
+  border: 1px solid white;
+  color: #2c3e4f;
+}
+button i{
+  margin: 3px;
+  font-size: 15px;
+}
+.dc-justify{
+ text-align:justify;
+}
 .dc-form{
     /* height placeholder*/
   height: 300px;
