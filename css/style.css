@@ -110,14 +110,17 @@ form{
   color: white;
   text-align: center;
 }
+h3{
+  font-size: 20px;
+}
 .dc-borderfont i{ 
-  font-size: 15px;
+  font-size: 13px;
   border: 1px solid white;
-  width: 40px;
-  height:40px;
-  line-height: 40px;
+  width: 35px;
+  height:35px;
+  line-height: 35px;
   border-radius:50%;
-  margin: 0 5px;
+  margin: 0 2px;
  
 }
 .dc-creator{
