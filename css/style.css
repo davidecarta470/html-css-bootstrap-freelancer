@@ -80,6 +80,7 @@ button i{
 .dc-justify{
  text-align:justify;
 }
+/* CONTACT */
 /* form */
 form{
     padding-top: 30px;
@@ -96,7 +97,7 @@ form{
     border-color: #1ABC9C;
  }
 /* ************** */
-
+/* FOOTER */
 .dc-footer-top{
   color: white;
   background-color: #39546D;
