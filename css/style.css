@@ -14,24 +14,43 @@
   width: 60%;
   margin: 0 auto;
 }
-
+/* HEADER */
 header{
   height: 80px;
   color: white;
+  justify-content:space-around;
+  align-items: center;
 }
+.dc-logo{
+  font-size: 25px;
+}
+.dc-nav-link{
+  color: white;
+}
+/* JUMBOTRONE */
 .dc-jumbotrone{
-  margin-top: 80px;
+  padding-top: 80px;
+  color: white;
 }
 .dc-inner-jumbo{
-  background-color: cadetblue;
   width: 800px;
   max-width: 80%;
   margin: 0 auto;
-
-  /* height da toglire*/
-  height: 300px;
+}
+img{
+  width:300px;
 }
 
+.dc-row{
+  border: 1px solid white;
+  width: 15%;
+  align-self: center;
+  border-radius:10px;
+}
+i{
+  font-size: 20px;
+  margin: 0 10px;
+}
 .dc-box{
   background-color: chocolate;
   /* height margin da toglire*/
