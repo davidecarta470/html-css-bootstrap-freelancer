@@ -14,22 +14,39 @@
   width: 60%;
   margin: 0 auto;
 }
+
+.fa-bars,.dc-box{
+  cursor:pointer;
+}
 /* HEADER */
 header{
   height: 80px;
   color: white;
-  padding: 0 10px;
+  padding: 0 20px;
 
 }
-.dc-logo{
+.dc-logo a{
   font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
 }
 .dc-nav-link{
   color: white;
 }
-.fa-bars{
-  width: 40px;
+
+.dc-nav-link:hover{
+  color:#31BC9C;
 }
+.fa-bars{
+  color: white;
+  font-size:25px;
+  border-radius: 5px;
+  border:1px solid white;
+  padding: 5px;
+  cursor: pointer;
+}
+
 /* JUMBOTRONE */
 .dc-jumbotrone{
   padding-top: 80px;
@@ -43,8 +60,11 @@ header{
 img{
   width:300px;
 }
+.dc-inner-jumbo h1{
+  font-size: 4vw;
+}
 .dc-row{
-  border: 1px solid white;
+  border: 2px solid white;
   width: 10vw;
   align-self: center;
   border-radius:10px;
@@ -55,11 +75,13 @@ img{
 }
 /* PORTFOLIO */
 .dc-row-black{
-  border:1px solid black;
+  border:2px solid black;
 }
 .dc-box{
   position:relative;
   margin-bottom: 20px;
+  border-radius: 20px;
+  overflow: hidden;
   }
 .dc-box img{
   width: 100%;
@@ -80,7 +102,7 @@ img{
 
 }
 .dc-box:hover .dc-layover{
-  background-color: rgba(1,1,1,.5);
+  background-color: rgba(70, 153, 59, 0.6);
   
 }
 .dc-box:hover .fa-plus{
@@ -144,7 +166,7 @@ h3{
   height:40px;
   line-height: 40px;
   border-radius:50%;
-  margin: 0 2px;
+  margin: 0 6px;
  
 }
 .dc-creator{
