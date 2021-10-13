@@ -58,10 +58,34 @@ img{
   border:1px solid black;
 }
 .dc-box{
-  padding-top: 20px;
+  position:relative;
+  margin-bottom: 20px;
   }
 .dc-box img{
   width: 100%;
+}
+.dc-layover{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: none;
+  text-align: center;
+  height: 100%;
+  transition: background-color 0.5s;
+}
+.fa-plus{
+  font-size: 0rem;
+  color: white;
+  transition: font-size 0.5s;
+
+}
+.dc-box:hover .dc-layover{
+  background-color: rgba(1,1,1,.5);
+  
+}
+.dc-box:hover .fa-plus{
+  font-size: 3rem;
+  
 }
 /* ABOUT */
 .about{
@@ -116,9 +140,9 @@ h3{
 .dc-borderfont i{ 
   font-size: 13px;
   border: 1px solid white;
-  width: 35px;
-  height:35px;
-  line-height: 35px;
+  width: 40px;
+  height:40px;
+  line-height: 40px;
   border-radius:50%;
   margin: 0 2px;
  
@@ -126,14 +150,3 @@ h3{
 .dc-creator{
   color:aquamarine;
 }
-/* <ul class="nav">
-<li class="nav-item">
-  <a class="nav-link active dc-nav-link" aria-current="page" href="#">PORTFOLIO</a>
-</li>
-<li class="nav-item">
-  <a class="nav-link dc-nav-link" href="#">ABOUT</a>
-</li>
-<li class="nav-item">
-  <a class="nav-link dc-nav-link" href="#">CONTACT</a>
-</li>
-</ul> */
